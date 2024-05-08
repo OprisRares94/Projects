@@ -1,0 +1,108 @@
+body{
+    font-family: "lato", sans-serif;
+    padding: 0;
+    margin: 0;
+    }
+
+
+
+#main-cotainer{
+    font-size: large;
+    font-weight: bold;
+    position: relative;
+    width: 1300px;
+    min-width: 1170px;
+    height: 100px;
+    left: 100px;
+}
+
+#first-container{
+    position: absolute;
+    gap: 50px;
+    width: auto;
+    height: fit-content;
+    left: 600px;
+    align-content: center;
+  top: 30%;
+}
+
+.logo{
+    object-fit: contain;
+    width: auto;
+    height: 120px;
+    margin: auto;
+    position: absolute;
+    left: 100px;
+    top: 0px;
+}
+
+.first-text{
+    border-radius: 10px;
+    border: none;
+    background-color: white;
+    font-family: "lato",sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 15px;
+}
+
+.first-text:hover{
+    background-color: #6dd7218a;
+    color: white
+}
+
+.review{
+    background-color: rgba(255, 0, 0, 0.886);
+    color: white;
+}
+
+#second-container{
+    width: auto;
+    height: 580px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    background-color: rgba(200, 196, 196, 0.251);
+}
+
+.sales{
+position: absolute;
+left: 300px;
+top: 20px;
+width: 100px;
+color: white;
+font-size: 20px;
+font-weight: bold;
+background-color: #6dd7218a;
+border: none;
+border-radius: 20px;
+height: 120px;
+}
+
+.sales:hover{
+    background-color: #6dd72167; 
+    border: solid rgb(52, 209, 4);
+}
+
+.vegetables{
+    left: 700px;
+    width: 120px;
+}
+
+.cereals{
+    left: 1100px;
+    width: 120px;
+}
+
+.greenplanet{
+    position: absolute;
+    top: 160px;
+    left: 350px;
+    width: auto;
+    height: auto;
+}
+.greenplanet img{
+    width: 800px;
+    height: 400px;
+}
+
